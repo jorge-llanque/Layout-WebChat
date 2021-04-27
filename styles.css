@@ -10,15 +10,15 @@ html {
 }
 .background-top {
     width: 100vw;
-    height: 8rem;
+    height: 12.7rem;
     background-color: #2E9687;
 }
 .container {
     position: absolute;
-    top: 1.2rem;
-    left: 17rem;
-    width: 87rem;
-    height: 96vh;
+    top: 2rem;
+    left: 26.35rem;
+    width: 72.5vw;
+    height: 95.8vh;
     background-color: #FFFFFF;
     display: flex;
 }
@@ -31,12 +31,13 @@ html {
 }
 .header-panel, .info-contact {
     width: 100%;
-    height: 3.5rem;
+    height: 5.75rem;
     background-color: #EDEDED;
+    display: flex;
 }
 .box-search {
     width: 100%;
-    height: 3rem;
+    height: 5rem;
     background-color: #F6F6F6;
 }
 .chat-inbox {
@@ -46,11 +47,25 @@ html {
 }
 .display-chat {
     width: 100%;
-    height: 50rem;
+    height: 80rem;
     background-color: #E5DDD5;
 }
 .input-message {
     width: 100%;
     height: auto;
     background-color: #F0F0F0;
+}
+.image-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("./assets/images/profile.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+.status {
+    width: 20px;
+    height: 20px;
+    background-image: url("./assets/icons/icon-status.svg");
+    background-size: 100%;
 }
